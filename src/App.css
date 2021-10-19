@@ -1,0 +1,106 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* signup form */
+
+#signup-details {
+  width: 30%;
+  height: 600px;
+  margin: auto;
+  border: 5px solid darkgray;
+  border-radius: 35px;
+  margin-top: 45px;
+  padding: 25px;
+}
+#signup-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-right: 3%;
+}
+
+#signup-input {
+  height: 380px;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+input {
+  height: 30px;
+  width: 50%;
+  margin: auto;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+#proceed {
+  width: 60%;
+  text-align: center;
+  height: 40px;
+  margin: auto;
+  background-color: black;
+  border-radius: 15px;
+  padding-top: 15px;
+}
+
+#proceed button {
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  margin-top: 2px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.navigate{
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Login form */
+
+#login-input {
+  height: 130px;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#Login-details {
+  width: 30%;
+  height: 340px;
+  margin: auto;
+  border: 5px solid darkgray;
+  border-radius: 35px;
+  margin-top: 45px;
+  padding: 25px;
+}
+#Login-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-right: 3%;
+}
+
+/* home */
+
+.home{
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-right: 3%;
+}
